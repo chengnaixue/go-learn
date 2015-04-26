@@ -33,6 +33,9 @@ func main() {
 	print(a)
 	f1()
 
+	var aa string = `This is a raw string \n`
+	fmt.Println(len(aa))
+
 }
 
 func f1(){
